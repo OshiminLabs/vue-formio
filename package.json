@@ -19,6 +19,9 @@
     "forms"
   ],
   "author": "Randall Knutson <randall@form.io>",
+  "contributors": [
+    "Badinga Ulrich <badinga.ulrich@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/OshiminLabs/vue-formio/issues"
