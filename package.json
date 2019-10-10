@@ -1,5 +1,5 @@
 {
-  "name": "vue-formio",
+  "name": "@oshimin/vue-formio",
   "version": "4.0.0",
   "description": "A vue.js renderer for form.io forms.",
   "main": "lib/index",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/formio/vue-formio.git"
+    "url": "git+https://github.com/OshiminLabs/vue-formio.git"
   },
   "keywords": [
     "Form.io",
@@ -21,9 +21,9 @@
   "author": "Randall Knutson <randall@form.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/formio/vue-formio/issues"
+    "url": "https://github.com/OshiminLabs/vue-formio/issues"
   },
-  "homepage": "https://github.com/formio/vue-formio#readme",
+  "homepage": "https://github.com/OshiminLabs/vue-formio#readme",
   "dependencies": {
     "@types/vue": "^2.0.0",
     "formiojs": "^4.1.1",

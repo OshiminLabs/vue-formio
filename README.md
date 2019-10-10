@@ -17,6 +17,7 @@ npm install vue-formio --save
 ## Basic Usage
 
 HTML inside of Vue template file:
+
 ```
 <template>
   <div id="app">
@@ -26,6 +27,7 @@ HTML inside of Vue template file:
 ```
 
 Javascript inside of Vue template file.
+
 ```
 <script>
   import { Form } from 'vue-formio';
@@ -35,6 +37,7 @@ Javascript inside of Vue template file.
   }
 </script>
 ```
+
 ## Props
 
 ### `src` : `string`
@@ -48,11 +51,11 @@ You can also pass in the submission url as the `src` and the form will render wi
 
 ### `url` : `string`
 
-If you pass in the form and submission directly, some components such as resources, files and forms need to know the url of the form on the server. Pass it in with the url option. 
+If you pass in the form and submission directly, some components such as resources, files and forms need to know the url of the form on the server. Pass it in with the url option.
 
 ### `form` : `object`
 
-An object representing the form. Use this instead of src for custom forms. 
+An object representing the form. Use this instead of src for custom forms.
 
 **Note:** `src` will override this property if used.
 
@@ -75,6 +78,7 @@ Then on the form set `<formio src="myform" v-on:submit="doSomething" />`
 ## FormBuilder
 
 HTML inside of Vue template file:
+
 ```
 <template>
   <div id="app">
@@ -84,6 +88,7 @@ HTML inside of Vue template file:
 ```
 
 Javascript inside of Vue template file.
+
 ```
 <script>
   import { FormBuilder } from 'vue-formio';
@@ -93,5 +98,7 @@ Javascript inside of Vue template file.
   }
 </script>
 ```
+
 ## License
+
 Released under the [MIT License](http://www.opensource.org/licenses/MIT).
